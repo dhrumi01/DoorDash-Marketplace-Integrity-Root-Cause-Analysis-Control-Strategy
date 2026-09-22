@@ -1,0 +1,4 @@
+﻿Plan,DeliveryCommissionPct,PickupCommissionPct,SourceID
+Basic,15,6,S8
+Plus,25,6,S8
+Premier,30,6,S8

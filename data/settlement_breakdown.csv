@@ -1,0 +1,4 @@
+﻿Component,AmountM,Population,SourceID,Note
+Worker payment pool,115.0,~264K workers,S2,Part of the $131.5M settlement.
+Online/on-call methodology,83.0,subset of worker claims,S2,Reported portion relating to logged-in/on-call methodology; overlaps the worker payment pool.
+Missed/delayed payments,12.3,subset of worker claims,S2,Reported portion for missing or delayed payments; overlaps the worker payment pool.
