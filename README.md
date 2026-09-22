@@ -28,5 +28,3 @@ This is not a “DoorDash complaint dashboard.” The project asks a strategy/op
 ## Data integrity
 All observed numbers in the dashboard are public-source values. Strategy/control rows are clearly analytical recommendations. Complaint-channel counts are not used as failure-rate denominators.
 
-See `docs/OPEN_POWER_BI.md`, `docs/RESEARCH_METHOD.md`, and `docs/DAX_MEASURES.md`.
-
