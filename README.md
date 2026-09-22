@@ -37,7 +37,7 @@ The project uses real public examples including:
 - logistics tradeoffs between batching efficiency and delivery duration
 - current merchant commission and menu-pricing research
 
-See source.md for the full source registry.
+See [`sources.md`](sources.md)for the full source registry.
 
 ---
 
