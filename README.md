@@ -28,3 +28,23 @@ This is not a “DoorDash complaint dashboard.” The project asks a strategy/op
 ## Data integrity
 All observed numbers in the dashboard are public-source values. Strategy/control rows are clearly analytical recommendations. Complaint-channel counts are not used as failure-rate denominators.
 
+# Research and RCA Method
+
+## Goal
+Identify recurring marketplace-control mechanisms across public DoorDash evidence, then translate them into **testable internal hypotheses** and measurable control strategies.
+
+## Source hierarchy
+- **Tier A** — SEC/regulatory filings or current independent reporting of a regulator-backed event.
+- **Tier B** — DoorDash first-party engineering, developer, merchant, and support documentation.
+- **Tier C** — complaint-channel signals such as BBB. Used only for hypothesis discovery; never treated as a DoorDash-wide defect rate.
+
+## Claim labels
+- **Confirmed incident** — the event/outcome is directly documented.
+- **Confirmed mechanism** — DoorDash or a regulator explicitly describes the mechanism.
+- **Supported hypothesis** — consistent with evidence but causality requires DoorDash internal data.
+- **Confirmed context** — factual business-rule/economic context, not necessarily a defect.
+- **Signal only** — complaint/community signal, not prevalence or causality evidence.
+
+## RCA discipline
+For every hypothesis the model stores: current problem, mechanism, root-cause hypothesis, source tier, internal validation question, recommended control, and success KPI. This prevents the dashboard from presenting an inference as a fact.
+
